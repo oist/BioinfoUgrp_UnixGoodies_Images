@@ -14,3 +14,8 @@ Make sure you have a [token](https://docs.github.com/en/authentication/keeping-y
 podman login ghcr.io
 podman pull ghcr.io/oist/bioinfougrp_debianmed_images:latest
 ```
+
+```
+singularity remote login --username charles-plessy docker://ghcr.io
+singularity pull docker://ghcr.io/oist/bioinfougrp_debianmed_images:latest
+```
