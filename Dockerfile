@@ -1,4 +1,4 @@
-FROM debian:12.0
+FROM debian:12.1
 MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 
 RUN apt -y update
@@ -7,4 +7,4 @@ RUN apt -y install perl-doc man-db && apt-get clean                             
 RUN DEBIAN_FRONTEND=noninteractive apt -y install bioperl python3-biopython && apt-get clean # Bioinfo packages
 RUN DEBIAN_FRONTEND=noninteractive apt -y install med-cloud && apt-get clean                 # Bioinfo packages
 RUN DEBIAN_FRONTEND=noninteractive apt -y install med-bio && apt-get clean                   # Bioinfo packages
-RUN apt -y install gitk colordiff rsync ncftp lftp filezilla p7zip-full rename magic-wormhole datamash pigz libsixel-bin source-highlight && apt-get clean # Small utilities
+RUN apt -y install gitk colordiff rsync ncftp lftp filezilla p7zip-full rename magic-wormhole ncdu datamash pigz libsixel-bin source-highlight && apt-get clean # Small utilities
