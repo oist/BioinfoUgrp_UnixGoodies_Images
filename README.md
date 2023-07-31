@@ -34,6 +34,7 @@ singularity pull docker://ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
 
 ### Software development
 
+ - [bat](https://github.com/sharkdp/bat): syntax coloring.
  - [colordiff](https://www.colordiff.org/): color your diffs.
  - [gitk](https://git-scm.com/docs/gitk): visualise your Git tree.
 
