@@ -66,3 +66,15 @@ podman pull  ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
 podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:12.1-1
 podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:12.1-1
 ```
+
+## For admins, how to create the modules
+
+This is likely to change in the future.
+
+```
+ml singularity
+./debalamod.sif cp /debalamod .
+for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
+```
+
+And then `module use …`
