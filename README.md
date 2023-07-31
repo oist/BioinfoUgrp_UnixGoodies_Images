@@ -11,7 +11,7 @@ See also <https://github.com/oist/BioinfoUgrp> and
 
 ```
 ml singularity
-singularity pull docker://ghcr.io/oist/bioinfougrp_debianmed_images:latest
+singularity pull docker://ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
 ```
 
 ## Goodies in this image:
