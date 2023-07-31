@@ -21,6 +21,7 @@ singularity pull docker://ghcr.io/oist/bioinfougrp_debianmed_images:latest
  - [ncdu](https://dev.yorhel.nl/ncdu): disk usage analysis.
  - [p7-zip](https://sourceforge.net/projects/p7zip/): can uncompress and repair some large Zip files that other tools can not.
  - [pigz](http://zlib.net/pigz/): compress files faster using plenty of CPU cores.
+ - [pixz](https://github.com/vasi/pixz): compress files faster using plenty of CPU cores.
  - [rename](https://metacpan.org/dist/File-Rename): use Perl regular expressions to rename files.
 
 ### File transfers
