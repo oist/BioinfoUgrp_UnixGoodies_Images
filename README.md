@@ -7,12 +7,18 @@ OISTs bioinformatics user group.
 See also <https://github.com/oist/BioinfoUgrp> and
 <https://salsa.debian.org/plessy/debalamod>.
 
+## How to use the image on OISTs HPC cluster
+
+ - Activate the modules with `ml bioinfo-ugrp-modules UnixGoodies`.
+ - Discover them with `ml av`.
+ - Load them with `ml`, followed by the module's name.  
+
 ## How to get the image:
 
-```
-ml singularity
-singularity pull docker://ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
-```
+If you are not at OIST or if you need the image elsewhere, you can download
+it from GitHub with Singularity.  If Singularity is available as a module you
+may need to run `ml singularity` before pulling the image.  Then, pull it with
+`singularity pull docker://ghcr.io/oist/bioinfougrp_unixgoodies_images:latest`.
 
 ## Goodies in this image:
 
