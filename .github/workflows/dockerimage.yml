@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/oist/bioinfougrp_debianmed_images:latest
+          tags: ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
