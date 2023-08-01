@@ -4,7 +4,7 @@ MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 ENV PKGS_CODING="bat colordiff gitk"
 ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_MANAGEMENT="ncdu p7zip-full pigz pixz rename"
-ENV PKGS_DEBIAN_DEVEL="debootstrap fakeschroot schroot sbuild"
+ENV PKGS_DEBIAN_DEVEL="debootstrap fakechroot schroot sbuild"
 ENV PKGS_OTHER="datamash libsixel-bin thefuck"
 
 RUN apt -y update
