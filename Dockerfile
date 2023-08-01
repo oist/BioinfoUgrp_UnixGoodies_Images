@@ -4,11 +4,11 @@ MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 ENV PKGS_CODING="bat colordiff gitk"
 ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_MANAGEMENT="ncdu p7zip-full pigz pixz rename"
-ENV PKGS_DEBIAN_DEVEL="debootstrap schroot sbuild"
+ENV PKGS_DEBIAN_DEVEL="debootstrap fakeschroot schroot sbuild"
 ENV PKGS_OTHER="datamash libsixel-bin thefuck"
 
 RUN apt -y update
-RUN apt -y install locales               && apt-get clean  # Multilingual support
+RUN apt -y install locales-all           && apt-get clean  # Multilingual support
 RUN apt -y install man-db perl-doc       && apt-get clean  # Documentation
 RUN apt -y install $PKGS_CODING          && apt-get clean
 RUN apt -y install $PKGS_FILE_TRANSFER   && apt-get clean
