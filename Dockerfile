@@ -13,6 +13,7 @@ RUN apt -y install $PKGS_CODING          && apt-get clean
 RUN apt -y install $PKGS_FILE_TRANSFER   && apt-get clean
 RUN apt -y install $PKGS_FILE_MANAGEMENT && apt-get clean
 RUN apt -y install $PKGS_OTHER           && apt-get clean
+RUN apt -y purge apt --allow-remove-essential --auto-remove
 
 RUN printf "$PKGS_CODING $PKGS_FILE_TRANSFER $PKGS_FILE_MANAGEMENT $PKGS_OTHER\n" > /debalamod_pkg_list
 ADD https://salsa.debian.org/plessy/debalamod/-/raw/master/debalamod /
