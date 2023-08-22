@@ -1,7 +1,7 @@
 FROM debian:12.1
 MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 
-ENV PKGS_CODING="bat colordiff gitk"
+ENV PKGS_CODING="bat colordiff gitk icdiff"
 ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_MANAGEMENT="ncdu p7zip-full pigz pixz rename"
 ENV PKGS_DEBIAN_DEVEL="debootstrap fakechroot schroot sbuild"
