@@ -24,6 +24,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
 ### File management
 
+ - [gt5](https://gt5.sourceforge.net/): disk usage analysis.
  - [ncdu](https://dev.yorhel.nl/ncdu): disk usage analysis.
  - [p7-zip](https://sourceforge.net/projects/p7zip/): can uncompress and repair some large Zip files that other tools can not.
  - [pigz](http://zlib.net/pigz/): compress files faster using plenty of CPU cores.
