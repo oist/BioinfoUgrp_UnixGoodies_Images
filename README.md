@@ -52,6 +52,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
 ### Other tools
 
+ - [cowsay](https://web.archive.org/web/20071026043648/http://www.nog.net/~tony/warez/cowsay.shtml): let the cow say it for you.
  - [datamash](https://www.gnu.org/software/datamash/): command-line tools for computing statistics on numbers from text files.
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
  - [neofetch](https://github.com/dylanaraps/neofetch): System information and OS logo.
