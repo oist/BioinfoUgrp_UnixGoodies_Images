@@ -32,6 +32,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [pigz](http://zlib.net/pigz/): compress files faster using plenty of CPU cores.
  - [pixz](https://github.com/vasi/pixz): compress files faster using plenty of CPU cores.
  - [rename](https://metacpan.org/dist/File-Rename): use Perl regular expressions to rename files.
+ - [trash-cli](https://github.com/andreafrancia/trash-cli): trashcan system.
 
 ### File transfers
 
