@@ -24,10 +24,11 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
 ### File management
 
- - [duc](https://duc.zevv.nl/): disk usage analysis (command-line and graphical).
- - [gt5](https://gt5.sourceforge.net/): disk usage analysis.
+ - [duc](https://duc.zevv.nl/): file usage analysis (command-line and graphical).
+ - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
+ - [gt5](https://gt5.sourceforge.net/): file usage analysis.
  - [exa](https://the.exa.website/): colorful `ls` with tree option.
- - [ncdu](https://dev.yorhel.nl/ncdu): disk usage analysis.
+ - [ncdu](https://dev.yorhel.nl/ncdu): file usage analysis.
  - [p7-zip](https://sourceforge.net/projects/p7zip/): can uncompress and repair some large Zip files that other tools can not.
  - [pigz](http://zlib.net/pigz/): compress files faster using plenty of CPU cores.
  - [pixz](https://github.com/vasi/pixz): compress files faster using plenty of CPU cores.
