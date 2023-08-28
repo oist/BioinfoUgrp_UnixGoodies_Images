@@ -29,11 +29,16 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [gt5](https://gt5.sourceforge.net/): file usage analysis.
  - [exa](https://the.exa.website/): colorful `ls` with tree option.
  - [ncdu](https://dev.yorhel.nl/ncdu): file usage analysis.
+ - [rename](https://metacpan.org/dist/File-Rename): use Perl regular expressions to rename files.
+ - [trash-cli](https://github.com/andreafrancia/trash-cli): trashcan system.
+
+### File compression
+
+ - [grabix](https://github.com/arq5x/grabix): Efficiently extract the n-th line of a bgzip-compressed file.
  - [p7-zip](https://sourceforge.net/projects/p7zip/): can uncompress and repair some large Zip files that other tools can not.
  - [pigz](http://zlib.net/pigz/): compress files faster using plenty of CPU cores.
  - [pixz](https://github.com/vasi/pixz): compress files faster using plenty of CPU cores.
- - [rename](https://metacpan.org/dist/File-Rename): use Perl regular expressions to rename files.
- - [trash-cli](https://github.com/andreafrancia/trash-cli): trashcan system.
+ - [tabix](https://github.com/samtools/htslib): provides the bgzip command to produced indexed gzip files.
 
 ### File transfers
 
