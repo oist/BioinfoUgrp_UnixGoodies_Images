@@ -6,7 +6,7 @@ ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
 ENV PKGS_FILE_MANAGEMENT="duc duf exa gt5 ncdu rename trash-cli"
 ENV PKGS_DEBIAN_DEVEL="debootstrap fakechroot schroot sbuild"
-ENV PKGS_OTHER="cowsay datamash libsixel-bin neofetch thefuck"
+ENV PKGS_OTHER="cowsay datamash hyperfine libsixel-bin neofetch thefuck"
 
 RUN apt -y update
 RUN apt -y install locales-all            && apt-get clean  # Multilingual support
