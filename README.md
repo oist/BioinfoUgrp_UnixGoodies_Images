@@ -93,3 +93,8 @@ for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
 ```
 
 And then `module use …`
+
+## To be checked after next Debian release
+
+ - [bashbro](https://github.com/victrixsoft/bashbro)
+ - [lsix](https://github.com/hackerb9/lsix)
