@@ -94,6 +94,10 @@ for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
 
 And then `module use …`
 
+## Consider adding at next build
+
+ - [fzf](https://junegunn.github.io/fzf/)
+
 ## To be checked after next Debian release
 
  - [bashbro](https://github.com/victrixsoft/bashbro)
