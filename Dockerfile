@@ -1,6 +1,9 @@
 FROM debian:12.6
 MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 
+# Needed for cowsay…
+ENV PATH="${PATH}:/usr/games"
+
 ENV PKGS_CODING="bat colordiff gitk icdiff kakoune"
 ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
