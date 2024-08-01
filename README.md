@@ -80,8 +80,8 @@ with write permissions for packages.
 ```
 podman login ghcr.io
 podman pull  ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
-podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:12.1-1
-podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:12.1-1
+podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:12.6-2
+podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:12.6-2
 ```
 
 ## For admins, how to create the modules
