@@ -24,6 +24,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
 ### File management
 
+ - [archivemount](https://github.com/cybernoid/archivemount): mounts an archive for access as a file system.
  - [duc](https://duc.zevv.nl/): file usage analysis (command-line and graphical).
  - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
  - [gt5](https://gt5.sourceforge.net/): file usage analysis.
@@ -60,6 +61,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
  - [cowsay](https://web.archive.org/web/20071026043648/http://www.nog.net/~tony/warez/cowsay.shtml): let the cow say it for you.
  - [datamash](https://www.gnu.org/software/datamash/): command-line tools for computing statistics on numbers from text files.
+ - [fzf](https://junegunn.github.io/fzf/): command-line fuzzy finder.
  - [hyperfine](https://github.com/sharkdp/hyperfine): command-line benchmarking tool.
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
  - [neofetch](https://github.com/dylanaraps/neofetch): System information and OS logo.
@@ -96,7 +98,7 @@ And then `module use …`
 
 ## Consider adding at next build
 
- - [fzf](https://junegunn.github.io/fzf/)
+ - tbd…
 
 ## To be checked after next Debian release
 
