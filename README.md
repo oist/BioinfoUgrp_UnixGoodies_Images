@@ -105,3 +105,4 @@ And then `module use …`
  - [bashbro](https://github.com/victrixsoft/bashbro)
  - [lsix](https://github.com/hackerb9/lsix)
  - [dysk](https://github.com/Canop/dysk)
+ - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/)
