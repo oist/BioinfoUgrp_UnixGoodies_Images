@@ -106,3 +106,4 @@ And then `module use …`
  - [lsix](https://github.com/hackerb9/lsix)
  - [dysk](https://github.com/Canop/dysk)
  - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/)
+ - [glow](https://github.com/charmbracelet/glow)
