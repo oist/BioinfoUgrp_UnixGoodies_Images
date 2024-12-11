@@ -107,3 +107,4 @@ And then `module use …`
  - [dysk](https://github.com/Canop/dysk)
  - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/)
  - [glow](https://github.com/charmbracelet/glow)
+ - [pay-respects](https://github.com/iffse/pay-respects), a potential replacement for thef…
