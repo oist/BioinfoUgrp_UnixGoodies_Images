@@ -57,6 +57,12 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [icdiff](https://www.jefftk.com/icdiff): side-to-side color word-diffs.
  - [kakoune](http://kakoune.org/): modal text editor friently assistant and more.
 
+### Cloud tools
+
+ - [aws-cli](https://github.com/aws/aws-cli): command-line interaction with the Amazon Web Services.
+ - [cmis-client](https://github.com/tdf/libcmis): command line CMIS client tool.
+ - [rclone](https://rclone.org/): Sync files to cloud storage.
+
 ### Other tools
 
  - [cowsay](https://web.archive.org/web/20071026043648/http://www.nog.net/~tony/warez/cowsay.shtml): let the cow say it for you.
@@ -80,8 +86,8 @@ with write permissions for packages.
 ```
 podman login ghcr.io
 podman pull  ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
-podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:12.6-2
-podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:12.6-2
+podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:12.9-1
+podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:12.9-1
 ```
 
 ## For admins, how to create the modules
