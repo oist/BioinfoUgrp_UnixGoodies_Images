@@ -1,4 +1,4 @@
-FROM debian:12.6
+FROM debian:12.9
 MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 
 # Needed for cowsay…
