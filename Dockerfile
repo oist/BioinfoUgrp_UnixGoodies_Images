@@ -4,6 +4,7 @@ MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 # Needed for cowsay…
 ENV PATH="${PATH}:/usr/games"
 
+ENV PKGS_CLOUD="awscli cmis-client rclone"
 ENV PKGS_CODING="bat colordiff gitk icdiff kakoune"
 ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
@@ -14,6 +15,7 @@ ENV PKGS_OTHER="cowsay datamash fzf hyperfine libsixel-bin neofetch thefuck"
 RUN apt -y update
 RUN apt -y install locales-all            && apt-get clean  # Multilingual support
 RUN apt -y install man-db perl-doc        && apt-get clean  # Documentation
+RUN apt -y install $PKGS_CLOUD            && apt-get clean
 RUN apt -y install $PKGS_CODING           && apt-get clean
 RUN apt -y install $PKGS_FILE_TRANSFER    && apt-get clean
 RUN apt -y install $PKGS_FILE_COMPRESSION && apt-get clean
