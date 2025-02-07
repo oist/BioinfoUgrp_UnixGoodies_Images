@@ -24,6 +24,6 @@ RUN apt -y install $PKGS_DEBIAN_DEVEL     && apt-get clean
 RUN apt -y install $PKGS_OTHER            && apt-get clean
 RUN apt -y purge apt --allow-remove-essential --auto-remove
 
-RUN printf "$PKGS_CODING $PKGS_FILE_TRANSFER $PKGS_FILE_COMPRESSION $PKGS_FILE_MANAGEMENT $PKGS_OTHER\n" > /debalamod_pkg_list
+RUN printf "$PKGS_CLOUD $PKGS_CODING $PKGS_FILE_TRANSFER $PKGS_FILE_COMPRESSION $PKGS_FILE_MANAGEMENT $PKGS_OTHER\n" > /debalamod_pkg_list
 ADD https://salsa.debian.org/plessy/debalamod/-/raw/master/debalamod /
 RUN chmod 775 /debalamod
