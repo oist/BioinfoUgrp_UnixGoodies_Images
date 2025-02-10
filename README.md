@@ -72,6 +72,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
  - [neofetch](https://github.com/dylanaraps/neofetch): System information and OS logo.
  - [thef...](https://github.com/nvbn/thefuck): swear and the computer fixes your typos.
+ - [ugrep](https://ugrep.com/): grep with fuzzy search, user interface, etc.
 
 ## How to add a goodie to the image
 
