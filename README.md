@@ -110,6 +110,7 @@ And then `module use …`
 ## To be checked after next Debian release
 
  - [bashbro](https://github.com/victrixsoft/bashbro)
+ - [ble.sh](https://github.com/akinomyoga/ble.sh)
  - [git-delta](https://github.com/dandavison/delta)
  - [lsix](https://github.com/hackerb9/lsix)
  - [dysk](https://github.com/Canop/dysk)
