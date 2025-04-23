@@ -105,7 +105,7 @@ And then `module use …`
 
 ## Consider adding at next build
 
- - tbd…
+ - [asciinema](https://asciinema.org/)
 
 ## To be checked after next Debian release
 
