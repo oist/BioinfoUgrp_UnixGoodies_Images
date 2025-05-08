@@ -117,3 +117,7 @@ And then `module use …`
  - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/)
  - [glow](https://github.com/charmbracelet/glow)
  - [pay-respects](https://github.com/iffse/pay-respects), a potential replacement for thef…
+
+## To be checked after the next-next Debian release
+
+ - [xan](https://github.com/medialab/xan)
