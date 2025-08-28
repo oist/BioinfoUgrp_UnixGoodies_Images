@@ -29,6 +29,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
  - [dysk](https://github.com/Canop/dysk): utility listing your filesystems.
  - [eza](https://eza.rocks/): colorful `ls` with tree option.
+ - [fd-find](https://github.com/sharkdp/fd): fast and user-friendly alternative to find.
  - [fdupes](https://github.com/adrianlopezroche/fdupes): identify duplicate files residing within specified directories.
  - [gt5](https://gt5.sourceforge.net/): file usage analysis.
  - [lsix](https://github.com/hackerb9/lsix): Shows thumbnails in terminal using sixel graphics.
