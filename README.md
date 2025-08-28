@@ -28,7 +28,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [duc](https://duc.zevv.nl/): file usage analysis (command-line and graphical).
  - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
  - [dysk](https://github.com/Canop/dysk): utility listing your filesystems.
- - [exa](https://the.exa.website/): colorful `ls` with tree option.
+ - [eza](https://eza.rocks/): colorful `ls` with tree option.
  - [fdupes](https://github.com/adrianlopezroche/fdupes): identify duplicate files residing within specified directories.
  - [gt5](https://gt5.sourceforge.net/): file usage analysis.
  - [lsix](https://github.com/hackerb9/lsix): Shows thumbnails in terminal using sixel graphics.
