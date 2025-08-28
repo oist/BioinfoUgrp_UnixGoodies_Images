@@ -10,7 +10,7 @@ ENV PKGS_FILE_TRANSFER="bashbro filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
 ENV PKGS_FILE_MANAGEMENT="archivemount duc duf dysk eza fdupes gt5 lsix ncdu rename trash-cli"
 ENV PKGS_DEBIAN_DEVEL="debootstrap fakechroot schroot sbuild"
-ENV PKGS_OTHER="asciinema ble.sh cowsay datamash fzf glow hyperfine libsixel-bin neofetch thefuck tmux terminaltexteffects ugrep"
+ENV PKGS_OTHER="asciinema cowsay datamash fzf glow hyperfine libsixel-bin thefuck tmux python3-terminaltexteffects ugrep"
 
 RUN apt -y update
 RUN apt -y install locales-all            && apt-get clean  # Multilingual support

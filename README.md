@@ -71,14 +71,12 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 ### Other tools
 
  - [asciinema](https://asciinema.org/): Record and share your terminal sessions, the simple way.
- - [ble.sh](https://github.com/akinomyoga/ble.sh): Bash Line Editor.
  - [cowsay](https://web.archive.org/web/20071026043648/http://www.nog.net/~tony/warez/cowsay.shtml): let the cow say it for you.
  - [datamash](https://www.gnu.org/software/datamash/): command-line tools for computing statistics on numbers from text files.
  - [fzf](https://junegunn.github.io/fzf/): command-line fuzzy finder.
  - [glow](https://github.com/charmbracelet/glow): Render markdown on the CLI, with pizzazz!
  - [hyperfine](https://github.com/sharkdp/hyperfine): command-line benchmarking tool.
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
- - [neofetch](https://github.com/dylanaraps/neofetch): System information and OS logo.
  - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/): inline visual effects in the terminal.
  - [tmux](https://github.com/tmux/tmux/), with sixel support
  - [thef...](https://github.com/nvbn/thefuck): swear and the computer fixes your typos.
@@ -115,5 +113,6 @@ And then `module use …`
 
 ## To be checked after next Debian release
 
+ - [ble.sh](https://github.com/akinomyoga/ble.sh): Bash Line Editor.
  - [pay-respects](https://github.com/iffse/pay-respects), a potential replacement for thef…
  - [xan](https://github.com/medialab/xan)
