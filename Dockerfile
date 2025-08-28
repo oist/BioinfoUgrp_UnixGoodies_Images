@@ -5,12 +5,12 @@ MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 ENV PATH="${PATH}:/usr/games"
 
 ENV PKGS_CLOUD="awscli cmis-client rclone"
-ENV PKGS_CODING="bat colordiff gitk icdiff kakoune"
-ENV PKGS_FILE_TRANSFER="filezilla lftp magic-wormhole ncftp rsync"
+ENV PKGS_CODING="bat colordiff gitk git-delta icdiff kakoune"
+ENV PKGS_FILE_TRANSFER="bashbro filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
-ENV PKGS_FILE_MANAGEMENT="archivemount duc duf exa gt5 ncdu rename trash-cli"
+ENV PKGS_FILE_MANAGEMENT="archivemount duc duf dysk exa fdupes gt5 lsix ncdu rename trash-cli"
 ENV PKGS_DEBIAN_DEVEL="debootstrap fakechroot schroot sbuild"
-ENV PKGS_OTHER="cowsay datamash fzf hyperfine libsixel-bin neofetch thefuck ugrep"
+ENV PKGS_OTHER="asciinema ble.sh cowsay datamash fzf glow hyperfine libsixel-bin neofetch thefuck tmux terminaltexteffects ugrep"
 
 RUN apt -y update
 RUN apt -y install locales-all            && apt-get clean  # Multilingual support

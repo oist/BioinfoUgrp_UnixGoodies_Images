@@ -27,8 +27,11 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [archivemount](https://github.com/cybernoid/archivemount): mounts an archive for access as a file system.
  - [duc](https://duc.zevv.nl/): file usage analysis (command-line and graphical).
  - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
- - [gt5](https://gt5.sourceforge.net/): file usage analysis.
+ - [dysk](https://github.com/Canop/dysk): utility listing your filesystems.
  - [exa](https://the.exa.website/): colorful `ls` with tree option.
+ - [fdupes](https://github.com/adrianlopezroche/fdupes): identify duplicate files residing within specified directories.
+ - [gt5](https://gt5.sourceforge.net/): file usage analysis.
+ - [lsix](https://github.com/hackerb9/lsix): Shows thumbnails in terminal using sixel graphics.
  - [ncdu](https://dev.yorhel.nl/ncdu): file usage analysis.
  - [rename](https://metacpan.org/dist/File-Rename): use Perl regular expressions to rename files.
  - [trash-cli](https://github.com/andreafrancia/trash-cli): trashcan system.
@@ -43,6 +46,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
 ### File transfers
 
+ - [bashbro](https://github.com/victrixsoft/bashbro): A Bash-based web file browser.
  - [filezilla](https://filezilla-project.org/): graphical interface for file transfers.
  - [lftp](https://lftp.yar.ru/): text interface for file transfers.
  - [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole): transfer a file to anywhere in the Universe.
@@ -54,6 +58,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [bat](https://github.com/sharkdp/bat): syntax coloring.
  - [colordiff](https://www.colordiff.org/): color your diffs.
  - [gitk](https://git-scm.com/docs/gitk): visualise your Git tree.
+ - [git-delta](https://github.com/dandavison/delta): syntax-highlighting pager for git, diff, and grep output.
  - [icdiff](https://www.jefftk.com/icdiff): side-to-side color word-diffs.
  - [kakoune](http://kakoune.org/): modal text editor friently assistant and more.
 
@@ -65,15 +70,19 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 
 ### Other tools
 
+ - [asciinema](https://asciinema.org/): Record and share your terminal sessions, the simple way.
+ - [ble.sh](https://github.com/akinomyoga/ble.sh): Bash Line Editor.
  - [cowsay](https://web.archive.org/web/20071026043648/http://www.nog.net/~tony/warez/cowsay.shtml): let the cow say it for you.
  - [datamash](https://www.gnu.org/software/datamash/): command-line tools for computing statistics on numbers from text files.
  - [fzf](https://junegunn.github.io/fzf/): command-line fuzzy finder.
+ - [glow](https://github.com/charmbracelet/glow): Render markdown on the CLI, with pizzazz!
  - [hyperfine](https://github.com/sharkdp/hyperfine): command-line benchmarking tool.
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
  - [neofetch](https://github.com/dylanaraps/neofetch): System information and OS logo.
+ - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/): inline visual effects in the terminal.
+ - [tmux](https://github.com/tmux/tmux/), with sixel support
  - [thef...](https://github.com/nvbn/thefuck): swear and the computer fixes your typos.
  - [ugrep](https://ugrep.com/): grep with fuzzy search, user interface, etc.
- - tmux, with sixel support
 
 ## How to add a goodie to the image
 
@@ -104,21 +113,7 @@ for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
 
 And then `module use …`
 
-## Consider adding at next build
-
- - [asciinema](https://asciinema.org/)
-
 ## To be checked after next Debian release
 
- - [bashbro](https://github.com/victrixsoft/bashbro)
- - [ble.sh](https://github.com/akinomyoga/ble.sh)
- - [git-delta](https://github.com/dandavison/delta)
- - [lsix](https://github.com/hackerb9/lsix)
- - [dysk](https://github.com/Canop/dysk)
- - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/)
- - [glow](https://github.com/charmbracelet/glow)
  - [pay-respects](https://github.com/iffse/pay-respects), a potential replacement for thef…
-
-## To be checked after the next-next Debian release
-
  - [xan](https://github.com/medialab/xan)
