@@ -118,6 +118,7 @@ And then `module use …`
 
  - [screenfetch](https://github.com/KittyKatt/screenFetch): the bash screenshot information tool.
  - [meldmerge](https://meldmerge.org/): visual diff and merge tool.
+ - [powerline-go](https://github.com/justjanne/powerline-go): A powerline style prompt for your shell.
 
 ## To be checked after next Debian release
 
