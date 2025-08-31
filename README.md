@@ -116,6 +116,7 @@ And then `module use …`
 
 ## To be added
 
+ - [broot](https://dystroy.org/broot/)
  - [screenfetch](https://github.com/KittyKatt/screenFetch): the bash screenshot information tool.
  - [meldmerge](https://meldmerge.org/): visual diff and merge tool.
  - [powerline-go](https://github.com/justjanne/powerline-go): A powerline style prompt for your shell.
