@@ -5,7 +5,7 @@ MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 ENV PATH="${PATH}:/usr/games"
 
 ENV PKGS_CLOUD="awscli cmis-client rclone"
-ENV PKGS_CODING="bat colordiff gitk git-delta icdiff kakoune meldmerge powerline-go"
+ENV PKGS_CODING="bat colordiff gitk git-delta icdiff kakoune meld powerline-go"
 ENV PKGS_FILE_TRANSFER="bashbro filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
 ENV PKGS_FILE_MANAGEMENT="archivemount broot duc duf dysk eza fdupes fd-find gt5 lsix ncdu rename trash-cli"
