@@ -25,6 +25,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 ### File management
 
  - [archivemount](https://github.com/cybernoid/archivemount): mounts an archive for access as a file system.
+ - [broot](https://dystroy.org/broot/)
  - [duc](https://duc.zevv.nl/): file usage analysis (command-line and graphical).
  - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
  - [dysk](https://github.com/Canop/dysk): utility listing your filesystems.
@@ -62,6 +63,8 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [git-delta](https://github.com/dandavison/delta): syntax-highlighting pager for git, diff, and grep output.
  - [icdiff](https://www.jefftk.com/icdiff): side-to-side color word-diffs.
  - [kakoune](http://kakoune.org/): modal text editor friently assistant and more.
+ - [meldmerge](https://meldmerge.org/): graphical visual diff and merge tool.
+ - [powerline-go](https://github.com/justjanne/powerline-go): A powerline style prompt for your shell.
 
 ### Cloud tools
 
@@ -78,6 +81,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [glow](https://github.com/charmbracelet/glow): Render markdown on the CLI, with pizzazz!
  - [hyperfine](https://github.com/sharkdp/hyperfine): command-line benchmarking tool.
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
+ - [screenfetch](https://github.com/KittyKatt/screenFetch): the bash screenshot information tool.
  - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/): inline visual effects in the terminal.
  - [tmux](https://github.com/tmux/tmux/), with sixel support
  - [thef...](https://github.com/nvbn/thefuck): swear and the computer fixes your typos.
@@ -115,11 +119,6 @@ for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
 And then `module use …`
 
 ## To be added
-
- - [broot](https://dystroy.org/broot/)
- - [screenfetch](https://github.com/KittyKatt/screenFetch): the bash screenshot information tool.
- - [meldmerge](https://meldmerge.org/): visual diff and merge tool.
- - [powerline-go](https://github.com/justjanne/powerline-go): A powerline style prompt for your shell.
 
 ## To be checked after next Debian release
 
