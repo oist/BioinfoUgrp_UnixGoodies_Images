@@ -25,7 +25,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
 ### File management
 
  - [archivemount](https://github.com/cybernoid/archivemount): mounts an archive for access as a file system.
- - [broot](https://dystroy.org/broot/)
+ - [broot](https://dystroy.org/broot/): navigate directories, find files, and launch commands.
  - [duc](https://duc.zevv.nl/): file usage analysis (command-line and graphical).
  - [duf](https://github.com/muesli/duf): filesystem usage/free analysis.
  - [dysk](https://github.com/Canop/dysk): utility listing your filesystems.
@@ -119,6 +119,8 @@ for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
 And then `module use …`
 
 ## To be added
+
+ - [glances](https://nicolargo.github.io/glances/)
 
 ## To be checked after next Debian release
 
