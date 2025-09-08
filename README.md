@@ -120,7 +120,8 @@ And then `module use …`
 
 ## To be added
 
- - [glances](https://nicolargo.github.io/glances/)
+ - [glances](https://nicolargo.github.io/glances/): An Eye on your system.
+ - [mawk](https://invisible-island.net/mawk/): the AWK found on some minimal footprint containers.
 
 ## To be checked after next Debian release
 
