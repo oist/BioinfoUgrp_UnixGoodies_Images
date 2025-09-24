@@ -1,4 +1,4 @@
-FROM debian:13.0
+FROM debian:13.1
 MAINTAINER Charles Plessy <charles.plessy@oist.jp>
 
 # Needed for cowsay…
@@ -9,8 +9,8 @@ ENV PKGS_CODING="bat colordiff gitk git-delta icdiff kakoune meld powerline-go"
 ENV PKGS_FILE_TRANSFER="bashbro filezilla lftp magic-wormhole ncftp rsync"
 ENV PKGS_FILE_COMPRESSION="grabix p7zip-full pigz pixz tabix"
 ENV PKGS_FILE_MANAGEMENT="archivemount broot duc duf dysk eza fdupes fd-find gt5 lsix ncdu rename trash-cli"
-ENV PKGS_DEBIAN_DEVEL="debootstrap fakechroot schroot sbuild"
-ENV PKGS_OTHER="asciinema cowsay datamash fzf glow hyperfine libsixel-bin screenfetch thefuck tmux python3-terminaltexteffects ugrep"
+ENV PKGS_DEBIAN_DEVEL="debootstrap eatmydata fakechroot fakeroot sbuild schroot"
+ENV PKGS_OTHER="asciinema cowsay datamash fzf glances glow hyperfine libsixel-bin mawk screenfetch thefuck tmux python3-terminaltexteffects ugrep"
 
 RUN apt -y update
 RUN apt -y install locales-all            && apt-get clean  # Multilingual support

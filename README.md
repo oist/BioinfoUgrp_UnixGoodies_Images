@@ -78,9 +78,11 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [cowsay](https://web.archive.org/web/20071026043648/http://www.nog.net/~tony/warez/cowsay.shtml): let the cow say it for you.
  - [datamash](https://www.gnu.org/software/datamash/): command-line tools for computing statistics on numbers from text files.
  - [fzf](https://junegunn.github.io/fzf/): command-line fuzzy finder.
+ - [glances](https://nicolargo.github.io/glances/): An Eye on your system.
  - [glow](https://github.com/charmbracelet/glow): Render markdown on the CLI, with pizzazz!
  - [hyperfine](https://github.com/sharkdp/hyperfine): command-line benchmarking tool.
  - [libsixel](https://saitoha.github.io/libsixel/): display images in your terminal!
+ - [mawk](https://invisible-island.net/mawk/): the AWK found on some minimal footprint containers.
  - [screenfetch](https://github.com/KittyKatt/screenFetch): the bash screenshot information tool.
  - [terminaltexteffects](https://chrisbuilds.github.io/terminaltexteffects/appguide/): inline visual effects in the terminal.
  - [tmux](https://github.com/tmux/tmux/), with sixel support
@@ -120,8 +122,7 @@ And then `module use …`
 
 ## To be added
 
- - [glances](https://nicolargo.github.io/glances/): An Eye on your system.
- - [mawk](https://invisible-island.net/mawk/): the AWK found on some minimal footprint containers.
+ - …
 
 ## To be checked after next Debian release
 
