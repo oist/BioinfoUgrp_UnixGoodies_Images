@@ -102,8 +102,8 @@ with write permissions for packages.
 ```
 podman login ghcr.io
 podman pull  ghcr.io/oist/bioinfougrp_unixgoodies_images:latest
-podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:13.0-1
-podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:13.0-1
+podman tag   ghcr.io/oist/bioinfougrp_unixgoodies_images:latest ghcr.io/oist/bioinfougrp_unixgoodies_images:13.1-1
+podman push  ghcr.io/oist/bioinfougrp_unixgoodies_images:13.1-1
 ```
 
 ## For admins, how to create the modules
@@ -112,8 +112,8 @@ This is likely to change in the future.
 
 ```
 ml singularity
-singularity pull docker://ghcr.io/oist/bioinfougrp_unixgoodies_images:13.0-1
-ln -s bioinfougrp_unixgoodies_images_13.0-1.sif ./debalamod.sif
+singularity pull docker://ghcr.io/oist/bioinfougrp_unixgoodies_images:13.1-1
+ln -s bioinfougrp_unixgoodies_images_13.1-1.sif ./debalamod.sif
 ./debalamod.sif cp /debalamod .
 for pkg in $(./debalamod.sif cat /debalamod_pkg_list); do ./debalamod $pkg; done
 ```
