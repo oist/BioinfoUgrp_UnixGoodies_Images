@@ -122,6 +122,7 @@ And then `module use …`
 
 ## To be added
 
+ - [silversearcher-ag](https://github.com/ggreer/the_silver_searcher)
  - …
 
 ## To be checked after next Debian release
