@@ -123,6 +123,7 @@ And then `module use …`
 ## To be added
 
  - [silversearcher-ag](https://github.com/ggreer/the_silver_searcher)
+ - [starfetch](https://github.com/Haruno19/starfetch) in a new "games" section?
  - …
 
 ## To be checked after next Debian release
