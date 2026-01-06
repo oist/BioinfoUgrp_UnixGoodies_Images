@@ -131,3 +131,5 @@ And then `module use …`
  - [ble.sh](https://github.com/akinomyoga/ble.sh): Bash Line Editor.
  - [pay-respects](https://github.com/iffse/pay-respects), a potential replacement for thef…
  - [xan](https://github.com/medialab/xan)
+ - [jless](https://jless.io/)
+ - [jql](https://crates.io/crates/jql)
