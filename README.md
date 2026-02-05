@@ -133,3 +133,4 @@ And then `module use …`
  - [xan](https://github.com/medialab/xan)
  - [jless](https://jless.io/)
  - [jql](https://crates.io/crates/jql)
+ - [navi](https://github.com/denisidoro/navi)
