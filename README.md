@@ -134,3 +134,4 @@ And then `module use …`
  - [jless](https://jless.io/)
  - [jql](https://crates.io/crates/jql)
  - [navi](https://github.com/denisidoro/navi)
+ - [zxc](https://github.com/hellobertrand/zxc)
