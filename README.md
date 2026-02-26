@@ -134,4 +134,5 @@ And then `module use …`
  - [jless](https://jless.io/)
  - [jql](https://crates.io/crates/jql)
  - [navi](https://github.com/denisidoro/navi)
+ - [skim](https://github.com/skim-rs/skim), a fuzzy finder for the shell, and [frizbee](https://github.com/saghen/frizbee/), a Smith-Waterman finder.
  - [zxc](https://github.com/hellobertrand/zxc)
