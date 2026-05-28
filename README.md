@@ -61,6 +61,7 @@ may need to run `ml singularity` before pulling the image.  Then, pull it with
  - [colordiff](https://www.colordiff.org/): color your diffs.
  - [gitk](https://git-scm.com/docs/gitk): visualise your Git tree.
  - [git-delta](https://github.com/dandavison/delta): syntax-highlighting pager for git, diff, and grep output.
+ - [git-lfs](https://git-lfs.com/): git large file storage.
  - [icdiff](https://www.jefftk.com/icdiff): side-to-side color word-diffs.
  - [kakoune](http://kakoune.org/): modal text editor friently assistant and more.
  - [meldmerge](https://meldmerge.org/): graphical visual diff and merge tool.
