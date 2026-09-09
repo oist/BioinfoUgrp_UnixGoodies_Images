@@ -137,3 +137,4 @@ And then `module use …`
  - [navi](https://github.com/denisidoro/navi)
  - [skim](https://github.com/skim-rs/skim), a fuzzy finder for the shell, and [frizbee](https://github.com/saghen/frizbee/), a Smith-Waterman finder.
  - [zxc](https://github.com/hellobertrand/zxc)
+ - [hax](https://github.com/OleksandrChekhovskyi/hax)
